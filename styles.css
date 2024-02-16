@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Styles for the first section */
+.first-section .card-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.first-section .card-text h5 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Styles for the second section */
+.second-section .card-img {
+  max-width: 30%; /* Adjust the percentage based on your preference */
+  margin: 0 auto; /* Center the image horizontally */
+  display: block; /* Ensure proper spacing */
+}
+
+.second-section .card-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.second-section .card-text p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
