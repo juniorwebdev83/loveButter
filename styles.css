@@ -1,29 +1,46 @@
-/* styles.css */
-
-/* Styles for the first section */
-.first-section .card-text h1 {
+/* Styles for the home section */
+.home-section .card-text h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
-.first-section .card-text h5 {
+.home-section .card-text h5 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-/* Styles for the second section */
-.second-section .card-img {
-  max-width: 30%; /* Adjust the percentage based on your preference */
-  margin: 0 auto; /* Center the image horizontally */
-  display: block; /* Ensure proper spacing */
+/* Styles for the about section */
+.about-section .card-img {
+  max-width: 30%;
+  margin: 0 auto;
+  display: block;
 }
 
-.second-section .card-text h1 {
+.about-section .card-text h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
-.second-section .card-text p {
+.about-section .card-text p {
   font-size: 1.2rem;
   margin-bottom: 10px;
+}
+
+/* Styles for the services section */
+.services-section {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.services-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.services-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #555;
 }
