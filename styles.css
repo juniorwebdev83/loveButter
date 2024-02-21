@@ -1,46 +1,19 @@
-/* Styles for the home section */
-.home-section .card-text h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.home-section .card-text h5 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-/* Styles for the about section */
-.about-section .card-img {
-  max-width: 30%;
-  margin: 0 auto;
-  display: block;
-}
-
+/* Styles for the home and about sections */
+.home-section .card-text h1,
 .about-section .card-text h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
+.home-section .card-text h5,
 .about-section .card-text p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-/* Styles for the services section */
-.services-section {
-  background-color: #f8f8f8;
-  padding: 20px;
-}
-
-.services-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.services-section p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  margin-bottom: 10px;
-  color: #555;
+.home-section .card-imgHome,
+.about-section .card-img {
+  max-width: 30%;
+  margin: 0 auto;
+  display: block;
 }
